@@ -1,0 +1,167 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%
+}
+
+body {
+	width: 100%;
+	font-size: 1.6rem;
+	background-color: #161616;
+	color: green;
+	font-family: Courier;
+}
+
+.header {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 10%;
+	padding: 1rem;
+}
+
+.header_container {
+	display: flex;
+	justify-content: space-between; 
+	color: green;
+	padding: 1rem;
+}
+
+.logo {
+	font-size: 3rem;
+	color: lime;
+	margin: 1rem;
+}
+
+.header_a:hover{
+	text-decoration: none;
+	color: lime;
+	font-variant-caps: petite-caps;
+}
+
+.header_ul{
+	display: inline-block;
+}
+
+.header_li{
+	display: inline-block;
+	font-variant-caps: small-caps;
+}
+
+.header_a{
+	color: lime;
+	display: inline-block;
+	font-variant-caps: small-caps;
+	border: 0.1rem lime dotted;
+	border-radius: 5px;
+	padding: 0.5rem;
+	text-decoration: none;
+
+}
+.header_a:hover{
+	color: white;
+	background-color: green;
+	display: inline-block;
+	border: 0.1rem lime dotted;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+
+.header_contact{
+	color: white;
+	background-color: green;
+	display: inline-block;
+	border: 0.1rem lime dotted;
+	border-radius: 5px;
+	padding: 0.5rem;
+	text-decoration: none;	
+}
+
+.header_contact:hover{
+	color: black;
+	background-color: white;
+	display: inline-block;
+	border: 0.1rem lime dotted;
+	border-radius: 5px;
+	padding: 0.5rem;
+	text-decoration: none;	
+}
+
+.header{
+	width: 100%;
+	
+}
+
+.top{
+	font-size: 1.5rem;
+	width: 100%;
+	color: lime;
+	text-align: center;
+	margin: 1rem;
+}
+
+.container {
+	width: 100%;
+	height: 90vh; /*50% de lo que tiene la pantalla*/
+	display: flex; /**/
+	font-size: 2rem;
+	flex-wrap: wrap;
+}
+
+
+.box {
+	flex-basis: 25rem;
+	flex-grow: 1;
+	border: 0.01rem green dotted;
+	padding: 1rem;
+	
+}
+
+.box:hover {
+	background-color: black;
+	color: lime;
+}
+
+.box:hover .description{
+	visibility: visible;	
+}
+
+.description{
+	visibility: hidden;
+}
+
+.link {
+	text-decoration: none;
+	color: lime;
+}
+
+.footer{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 10%;
+	padding: 1rem;
+	align-items: center;
+}
+
+.footer_ul{
+	justify-content: space-between;
+	padding: 2rem;
+	display: flex;
+}
+
+.footer_li_a{
+	color: green;
+	border: 1rem;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.footer_li{
+	marker: none;
+}
